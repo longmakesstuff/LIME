@@ -18,12 +18,12 @@ In order to achieve its desired property, LIME approximate the targeted model's 
 
 Those kinds of model suffer from less generalizability, but they are explainable by nature. Linear and logistic regression for example tell you directly if an input parameter contributes positively or negatively to the end result. 
 
-On the other side of the spectrum we have Neural Network, Support Vector Machines or Random Forrest. Their behaviors are mathematically proven and can yields excellently accurate results, but because of their complexity, it is almost impossible to know how they come to their decisions.
+On the other side of the spectrum we have Neural Network, Support Vector Machines or Random Forrest. These shiny models can yield excellent results and were proven to be very robust, but because of their complexity, it is almost impossible to know how they come to their decisions, so they have plenty difficulties to gain trust of wider audience.
 
-By considering usage of LIME, humans behind the scene have a better chance of explaining a very complex model's decisions, hence getting the best of both worlds: explainability of traditional simple models and state of the art result of modern black box models. Ethically we naturally want to eliminate biases in data and avoid sensible data to play a greate role such as:
-- Gender
-- Race
-- Religious or political orientation
+By using LIME for model validation, we can get the best of both worlds: explainability of simple but weak models and state of the art results from modern black box models. Furthermore, from the ethical standpoint, we naturally want to eliminate biases in data and avoid sensible data to play a greate role such as:
+- Gender.
+- Race.
+- Religious or political orientation.
 
 ### Interpreting Random Forrest Classifier (RFC)
 
