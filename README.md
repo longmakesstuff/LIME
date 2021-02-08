@@ -17,7 +17,7 @@ In order to achieve its desired property, LIME approximate the targeted model's 
 - Logistic Regression
 - Decision Tree
 
-By obtaining this simple model, humans behind the scene get a clearer idea of which input features are important for the final decision. Ethically we naturally want to eliminate biases in data and avoid sensible data to play a greate role such as:
+By obtaining this simple model, humans behind the scene has a better chance of explaining a very complex model's decisions, hence getting the best of both worlds: explainability of traditional simple models and state of the art result of modern black box models. Ethically we naturally want to eliminate biases in data and avoid sensible data to play a greate role such as:
 - Gender
 - Race
 - Religious or political orientation
