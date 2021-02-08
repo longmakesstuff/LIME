@@ -29,7 +29,7 @@ By using LIME for model validation, we can get the best of both worlds: explaina
 
 In the notebook `Explain Random Forrest.ipynb` we examine the [German Credit](https://www.kaggle.com/uciml/german-credit) dataset. Application for credits can sometimes be someone's chance to start a new business, getting into higher education or a life-saving medical therapy. Of course, we do not wish to leave the final decision to a discriminating model and hence desire to eliminate bias. 
 
-In this example, we trained a RFC with 50 sub-estimators and verified the final result with cross validation (0.95 ± 0.002). The final result may sound good on paper, but with LIME we found a very fundemental problem with the model (Hints for upcoming illustration: the higher a feature's value, the less likely your application will get approved).
+In this example, we trained a RFC with 50 sub-estimators and verified the final result with cross validation (0.95 ± 0.002). The model's performance may sound good on paper, but with help of LIME we found a very fundemental problem with the model (Hints for upcoming illustration: the higher a feature's value, the less likely your application will get approved).
 
 ![](data/explain_random_forrest.png)
 
