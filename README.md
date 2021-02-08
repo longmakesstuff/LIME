@@ -24,7 +24,7 @@ By obtaining this simple model, humans behind the scene has a better chance of e
 
 ### Interpreting Random Forrest Classifier (RFC)
 
-In the notebook `Explain Random Forrest.ipynb` we examine the [https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data](German Credit) dataset. Application for credits can sometimes be someone's chance to start a new business, getting into higher education or a life-saving medical therapy. Of course, we do not wish to leave the final decision to a discriminating model and hence desire to eliminate bias. 
+In the notebook `Explain Random Forrest.ipynb` we examine the [German Credit](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)  dataset. Application for credits can sometimes be someone's chance to start a new business, getting into higher education or a life-saving medical therapy. Of course, we do not wish to leave the final decision to a discriminating model and hence desire to eliminate bias. 
 
 In this example, we trained a RFC with 50 sub-estimators and verified the final result with cross validation (0.95 ± 0.002). The final result may sound good on paper, but with LIME we found a very fundemental problem with the model.
 
