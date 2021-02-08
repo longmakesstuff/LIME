@@ -34,8 +34,19 @@ It turns out the model's final decision depent greatly on the feature `SK_ID_CUR
 
 But there are many other interesting features in this plot. By `FLAG_OWN_CAR` we can conclude that the chance is higher for car owner to obtain the credit, but only if your car is not too old (`OWN_CAR_AGE`).
 
+To verify the interpretation is not mere by chance, we test 100 outputs of LIME with variance analysis and to sort out the hypothesis that the result is a product of pure randomness.
+
 ### Interpreting Convolution Neural Network (CNN)
 
-In this example, we train a deep CNN to help us to decide if there is a cat on an image. 
+In this example, we train a deep CNN to help us to decide if there is a cat on an image. There is a funny anecdote, where a military R&D trained a network to detect tank on images. The model worked in the training phase very well so it was deployed into test environment, where its outputs suddenly became useless. It turns out that all the training data with a tank had an unintentional water mark, which made the final model worthless. 
+
+To avoid this kind of problem, I deployed LIME to point out important features of the original pictures for model's decision. 
 
 ![](data/explain_neural_network.png)
+
+The brighter the pixels, the more weight it contribute to the classification `cat`. As we can see in the pictures, the orange's cat pixels seem to be the key for the detection. While the dog's pixels rather told the model "Hey, I am clearly not a cat.".
+
+
+## References
+
+- !["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
