@@ -53,3 +53,4 @@ In the two inferences shown above, the brighter the pixels contribute more weigh
 ## References
 
 - ["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
+- [INFO4152 Uni Tübingen - Data Mining and Probabilistic Reasoning](http://campus.verwaltung.uni-tuebingen.de/lsfpublic/rds?state=verpublish&status=init&vmfile=no&publishid=177782&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
